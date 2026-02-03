@@ -1,6 +1,11 @@
 # CauFR-TS
 
 <p align="center">
+  <b>Causal Time Series Identifiability via Factorized Representations</b>
+  <br> <i>Under review at TMLR</i> 
+</p>
+
+<p align="center">
   <a href="https://github.com/ayan-cs/caufr-ts">
     <img src="https://img.shields.io/github/stars/ayan-cs/caufr-ts?style=social">
   </a>
@@ -9,10 +14,6 @@
   </a>
 </p>
 
-<p align="center">
-  <b>Causal Time Series Identifiability via Factorized Representations</b>
-  <br> <i>Under review at TMLR</i> 
-</p>
 <p align="center">
   <img src="https://img.shields.io/badge/PyTorch-2.4.0-red">
   <img src="https://img.shields.io/badge/scikit--learn-1.8.0-F7931E">
