@@ -219,8 +219,8 @@ if __name__ == "__main__":
 
     ####################################################################
     ### Manually change this place for other datasets
-    dataset_name = 'yeast' # ['henon', 'lorenz', 'ecoli', 'yeast']
-    dataset_artifact = 'yeast_5000_10'
+    dataset_name = 'henon' # ['henon', 'lorenz', 'ecoli', 'yeast']
+    dataset_artifact = 'henon_5000_10'
     context = 50
     datapath = os.path.join(parent, 'datasets', dataset_artifact)
     ####################################################################
@@ -242,10 +242,6 @@ if __name__ == "__main__":
     "dropout" : [0],
     "beta_kl": [0.01],
     "lam_lasso": [0.1]
-    # "beta_kl": [0.1, 0.05, 0.01],
-    # "lam_lasso": [0.3, 0.25, 0.2, 0.15, 0.125, 0.1]
-    # "beta_kl": [0.005, 0.001, 0.0005, 0.0001],
-    # "lam_lasso": [0.05, 0.01, 0.005, 0.001, 0.0005, 0.0001]
     }
 
     metadata_list = grid_search_trainer(
