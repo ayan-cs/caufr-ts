@@ -8,6 +8,7 @@
 Unlike existing neural Granger causality methods that rely on shared latent encoders, CauFR-TS employs **dimension-wise factorized encoders**, preventing latent information leakage across variables. This design restores the conditional independence assumptions required for Granger causality and leads to **structurally identifiable causal graphs**.
 
 In addition, CauFR-TS introduces a **data-driven, parameter-free adaptive thresholding** strategy based on Gaussian Mixture Models to robustly separate causal signals from noise.
+
 ---
 ## 🤓 Key Contributions
 - **Factorized Encoder Architecture**  
@@ -23,15 +24,25 @@ In addition, CauFR-TS introduces a **data-driven, parameter-free adaptive thresh
   Consistent improvements over state-of-the-art baselines on synthetic chaotic systems and in silico biological benchmarks.
 
 ---
-
 ## 🧐 Methodology
 
 <p align="center"> <img src="assets/architecture-v3.png" width="85%"> </p>
 
 CauFR-TS models the conditional distribution $p(x_t|x_{1:t-1})$ using a factorized variational architecture:
-1. Each variable is processed by an independent Transformer-based encoder.
-2. Latent variables are reparameterized and concatenated into a structured latent vector.
-3. Multi-head decoders predict future values using group-sparse weights.
-4. Causal adjacency is recovered via adaptive probabilistic thresholding on decoder weights.
+**1.** Each variable is processed by an independent Transformer-based encoder.
+**2.** Latent variables are reparameterized and concatenated into a structured latent vector.
+**3.** Multi-head decoders predict future values using group-sparse weights.
+**4.** Causal adjacency is recovered via adaptive probabilistic thresholding on decoder weights.
 
 This architecture ensures that all inter-variable information flow is explicitly mediated by the learned causal matrix.
+
+---
+## 😵‍💫 Results & Visualizations
+
+* 📈Training Dynamics:
+
+- Evolution of group-lasso weights
+- Separation of causal vs non-causal mechanisms
+- Convergence of adaptive thresholds
+
+<p align="center"> <img src="assets/convergence_plots.png" width="85%"> </p>
