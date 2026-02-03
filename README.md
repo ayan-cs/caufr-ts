@@ -39,16 +39,36 @@ This architecture ensures that all inter-variable information flow is explicitly
 ---
 ## 😵‍💫 Results & Visualizations
 
-* 📈 Training Dynamics:
+* 📈 **Training Dynamics:**
     - Evolution of group-lasso weights
     - Separation of causal vs non-causal mechanisms
     - Convergence of adaptive thresholds
 
 <p align="center"> <img src="assets/convergence_plots.png" width="85%"> </p>
 
-* 📊 Causal Graph Recovery
+* 📊 **Causal Graph Recovery:**
     - (Left) Ground-truth causal adjacency matrix
     - (Middle) Estimated raw causal matrix obtained from the learned group-lasso decoder weights prior to thresholding
     - (Right) The final binary causal graph after applying the proposed adaptive thresholding procedure
 
 <p align="center"> <img src="assets/causal_matrix_quality.png" width="85%"> </p>
+
+---
+## 🤖 Execution
+
+```
+git clone git@github.com:ayan-cs/CauFR-TS.git
+cd CauFR-TS
+```
+
+Make necessary changes based on your dataset. For a quick run on  H´enon maps,
+
+```
+python train.py
+```
+
+---
+
+## 🗣️ Contact
+
+Currently the paper is under anonymous submission at TMLR. We will update this once accepted.
