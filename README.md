@@ -5,7 +5,7 @@
   <br> <i>Accept with Minor Revisions at TMLR</i> 
 </p>
 <p align="center">
-  <a href="https://github.com/ayan-cs/CauFR-TS">
+  <a href="https://github.com/ayan-cs/caufr-ts">
     <img src="https://img.shields.io/github/stars/ayan-cs/CauFR-TS?style=social">
   </a>
   <a href="https://github.com/ayan-cs/CauFR-TS">
