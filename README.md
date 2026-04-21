@@ -13,9 +13,6 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/ayan-cs/CauFR-TS">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=ayan-cs.CauFR-TS">
-  </a>
   <img src="https://img.shields.io/badge/PyTorch-2.4.0-red">
   <img src="https://img.shields.io/badge/scikit--learn-1.8.0-F7931E">
   <img src="https://img.shields.io/badge/CUDA-12.5-green">
