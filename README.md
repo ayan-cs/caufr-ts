@@ -5,6 +5,9 @@
   <br> <i>Accept with Minor Revisions at TMLR</i> 
 </p>
 <p align="center">
+  <a href="https://openreview.net/forum?id=Al4OnLoQsp">
+    <img src="https://img.shields.io/badge/TMLR-Paper-blue?logo=openreview">
+  </a>
   <a href="https://github.com/ayan-cs/CauFR-TS">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=ayan-cs.CauFR-TS">
   </a>
@@ -14,6 +17,7 @@
   <img src="https://img.shields.io/badge/scikit--learn-1.8.0-F7931E">
   <img src="https://img.shields.io/badge/CUDA-12.5-green">
   <img src="https://img.shields.io/badge/License-MIT-blue">
+  <img src="https://img.shields.io/badge/Reproducibility-Verified-success">
 </p>
 
 ## 🥸 Overview
@@ -86,4 +90,9 @@ python train.py
 
 ## 🗣️ Contact
 
-We will update this soon.
+<p align="left">
+  📧 Email: p23iot002@iitj.ac.in <br>
+  📧 Email: ghoshayanabha@gmail.com <br>
+  🎓 <a href="https://scholar.google.com/](https://scholar.google.com/citations?user=oB4N3H4AAAAJ&hl=en">Google Scholar</a> <br>
+  🌐 <a href="https://www.linkedin.com/in/ayanabha-ghosh-cs/">LinkedIn</a>
+</p>
