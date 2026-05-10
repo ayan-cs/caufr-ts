@@ -93,6 +93,6 @@ python train.py
 <p align="left">
   📧 Email: p23iot002@iitj.ac.in <br>
   📧 Email: ghoshayanabha@gmail.com <br>
-  🎓 <a href="https://scholar.google.com/](https://scholar.google.com/citations?user=oB4N3H4AAAAJ&hl=en">Google Scholar</a> <br>
+  🎓 <a href="https://scholar.google.com/citations?user=oB4N3H4AAAAJ&hl=en">Google Scholar</a> <br>
   🌐 <a href="https://www.linkedin.com/in/ayanabha-ghosh-cs/">LinkedIn</a>
 </p>
