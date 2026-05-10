@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Causal Time Series Identifiability via Factorized Representations</b>
-  <br> <i>Accept with Minor Revisions at TMLR</i> 
+  <br> <i>Accepted & Published at TMLR</i> 
 </p>
 <p align="center">
   <a href="https://openreview.net/forum?id=Al4OnLoQsp">
